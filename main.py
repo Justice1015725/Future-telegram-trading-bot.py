@@ -8,9 +8,9 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-NEWS_API = "YOUR_NEWS_API_KEY"
-FX_API = "YOUR_ALPHA_VANTAGE_KEY"
+TOKEN = "8511195336:AAGjwGUJgBtx9gdz3--urUMPFzqPet3Mkks"
+NEWS_API = "332bf45035354091b59f1f64601e2e11"
+FX_API = "ca1acbf0cedb4488b130c59252891c5e"
 
 MODEL_PATH = "ai_model_portfolio.h5"
 TRAIN_LOG = "last_train_portfolio.txt"
