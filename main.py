@@ -9,7 +9,7 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TOKEN = "8511195336:AAGjwGUJgBtx9gdz3--urUMPFzqPet3Mkks"
 NEWS_API = "332bf45035354091b59f1f64601e2e11"
 FX_API = "ca1acbf0cedb4488b130c59252891c5e"
 
