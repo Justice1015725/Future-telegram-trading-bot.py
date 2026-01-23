@@ -10,7 +10,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
 TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-NEWS_API = "YOUR_NEWS_API_KEY"
+NEWS_API = "332bf45035354091b59f1f64601e2e11"
 FX_API = "YOUR_ALPHA_VANTAGE_KEY"
 
 MODEL_PATH = "ai_model_portfolio.h5"
